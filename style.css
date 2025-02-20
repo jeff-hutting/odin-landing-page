@@ -1,6 +1,34 @@
 .page {
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heroHeading {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 4px 0;
+  /* border: 1px solid lime; */
+}
+
+.heroText {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 4px 0;
+}
+
+button {
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 16px;
+  margin-top: 10px;
+  width: 100px
+}
+
+button:hover {
+  background: #3271d6;
 }
 
 a:link,
@@ -9,29 +37,92 @@ a:visited {
   text-decoration: none;
 }
 
-.header {
+.headerBox {
   display: flex;
   background: #1f2937;
   color: #f9faf8;
   box-sizing: border-box;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid lime; */
+}
+
+.headerContent {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  /* border: 1px solid lime; */
   justify-content: space-between;
-  padding: 10px 12%;
   align-items: center;
 }
 
-.logo {
+.headerLogo {
   font-size: 24px;
   font-weight: 700;
+  /* border: 1px solid lime; */
 }
-ul {
+
+.headerLinks {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  /* font-family: 'Roboto', sans-serif; */
   font-size: 18px;
   color: #e5e7eb;
   gap: 24px;
+  /* border: 1px solid lime; */
+}
+
+.heroBox {
+  display: flex;
+  background: #1f2937;
+  color: #f9faf8;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  padding: 48px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid lime; */
+}
+
+.heroContent {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  /* border: 1px solid lime; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.contentbox {
+  display: flex;
+  border: 1px solid lime;
+
+}
+
+.quotebox {
+  display: flex;
+  background: #e5e7eb;
+  flex-direction: column;
+  border: 1px solid lime;
+
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  border: 1px solid lime;
 }
