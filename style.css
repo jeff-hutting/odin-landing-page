@@ -105,10 +105,51 @@ a:visited {
   max-width: 400px;
 }
 
-.contentbox {
+.contentBox {
   display: flex;
-  border: 1px solid lime;
+  flex-direction: column;
+  /* padding: 32px; */
+  /* border: 1px solid lime; */
+}
 
+.contentHeading {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 32px 0;
+  color: #1F2937;
+}
+
+.illustrations {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  margin-bottom: 64px;
+
+  /* width: 70%; */
+  /* border: 1px solid lime; */
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+  padding: 0 36px 16px 0;
+  /* border: 1px solid lime; */
+}
+
+.image {
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+}
+
+.infoText {
+  font-size: 18px;
+  color: #1F2937;
+  padding: 8px 0;
 }
 
 .quotebox {
